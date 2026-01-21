@@ -1,22 +1,22 @@
 # Investalo Market Snapshot (Momentum 4h) 🧭
 
-Ein intelligentes WordPress-Plugin für Trader, das mehr als nur Kurse anzeigt. Es analysiert das kurzfristige Momentum (4h-Intervall) und bestimmt daraus den aktuellen **Marktmodus**.
+An intelligent WordPress plugin for traders that displays more than just prices. It analyzes short-term momentum (4h interval) to determine the current **Market Regime**.
 
-## 🧠 Intelligente Logik
-Das Tool vergleicht die Bewegungen von Risiko-Assets (Bitcoin, DAX) mit sicheren Häfen (Gold), um den Kapitalfluss zu bestimmen:
-- **Risk-On:** Bitcoin führt, defensive Nachfrage (Gold) bleibt aus.
-- **Risk-Off:** Kapital flieht aus Krypto in Richtung Sicherheit (Gold).
-- **Übergangsphase:** Neutrale Marktstimmung ohne klaren Trend.
+## 🧠 Intelligent Logic
+The tool compares the movement of risk assets (Bitcoin, DAX) with safe havens (Gold) to determine capital flow:
+- **Risk-On:** Bitcoin leads, defensive demand (Gold) is absent.
+- **Risk-Off:** Capital flees from Crypto towards safety (Gold).
+- **Transition Phase:** Neutral market sentiment without a clear trend.
 
 ## ✨ Features
-- **Automatisierte Sentiment-Phrasen:** Übersetzt nackte Zahlen in Trading-Begriffe wie "impulsiver Aufwärtstrend".
-- **Eingebautes Styling:** Modernes Card-Design mit Shadow-Effekten und Risk-Farben (Grün/Rot/Grau).
-- **Performance-Optimiert:** Nutzt WordPress Transients (15 Min. Cache), um API-Limits zu schonen und Ladezeiten minimal zu halten.
+- **Automated Sentiment Phrases:** Translates raw numbers into trading terms like "impulsive uptrend."
+- **Built-in Styling:** Modern card design with shadow effects and risk-based colors (Green/Red/Gray).
+- **Performance Optimized:** Uses WordPress Transients (15 min. cache) to stay within API limits and keep loading times minimal.
 
 ## 🚀 Installation
-1. Lade die `.php` Datei in deinen Plugin-Ordner hoch.
-2. Hinterlege deinen `twelve_data_api_key` in der WordPress Datenbank.
-3. Nutze den Shortcode `[market_snapshot]` an beliebiger Stelle.
+1. Upload the `.php` file to your plugins folder.
+2. Save your `twelve_data_api_key` in the WordPress database.
+3. Use the shortcode `[market_snapshot]` anywhere on your site.
 
 ---
-*Entwickelt für die Investalo Homepage.*
+*Developed for the Investalo homepage.*
